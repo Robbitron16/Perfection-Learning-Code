@@ -1,0 +1,185 @@
+body {
+	font-family: Trebuchet MS;
+}
+
+#contain {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 550px;
+}
+
+#titles {
+	position: fixed;
+	left: 10px;
+	top: 10px;
+}
+
+#titleOne {
+	position: fixed;
+	top: 0px;
+	left: 20px;
+	color: white;
+	font-size: 18px;
+}
+
+#titleTwo {
+	position: fixed;
+	top: 78px;
+	left: 20px;
+	color: white;
+	font-size: 18px;
+}
+
+#givenText {
+	position: fixed;
+	top: 110px;
+	left: 25px;
+	font-size: 16px;
+}
+
+#proofText {
+	position: fixed;
+	top: 30px;
+	left: 25px;
+	font-size: 16px;
+}
+
+#diagram {
+	position: fixed;
+	top: 30px;
+	left: 400px;
+}
+
+#statements {
+	position: fixed;
+	border: 1px solid black;
+	background: #78963c;
+	top: 166px;
+	left: 8px;
+	color: white;
+	width: 155px;
+	height: 25px;
+	font-size: 18px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#reasons {
+	position: fixed;
+	border: 1px solid black;
+	background: #78963c;
+	top: 166px;
+	left: 165px;
+	color: white;
+	width: 195px;
+	height: 25px;
+	font-size: 18px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#choose {
+	background: #ec8e02;
+	position: fixed;
+	border: 1px solid black;
+	top: 166px;
+	left: 365px;
+	color: white;
+	width: 354px;
+	height: 25px;
+	font-size: 18px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#dropContainer {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#check {
+	position: fixed;
+	top: 504px;
+	left: 120px;
+}
+
+#reset {
+	position: absolute;
+	top: 504px;
+	left: 625px;
+}
+
+#dialogoverlay {
+	display: none;
+	opacity: 0.0;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+
+#dialogbox {
+	display: none;
+	position: fixed;
+	background: #000;
+	width: 340px;
+	z-index: 10;
+}
+
+#dialogbox > div {
+	background: white;
+	height: 116px;
+	margin: 2px;
+}
+
+#dialogbox > div > #dialogboxhead {
+	background: white;
+	font-size: 16px;
+	padding: 10px;
+	text-align: center;
+	color: black;
+}
+
+#dialogbox > div > #dialogboxfoot {
+	background: white;
+	position: absolute;
+	top: 70px;
+	left: 150px;
+	text-align: center;
+}
+
+#dialogboxfoot:hover {
+	cursor: pointer;
+}
+
+.reasonTiles:hover {
+	cursor: pointer;
+}
+
+.statementTiles:hover {
+	cursor: pointer;
+}
+
+#check:hover {
+	cursor: pointer;
+}
+
+#reset:hover {
+	cursor: pointer;
+}
+
+.titleTexts {
+	position: relative;
+	height: 23px;
+	top: 5px;
+}
+
+.texts {
+	height: 20px;
+	padding-top: 2px;
+}
