@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>act_geometryProofsangleRelationships</title>
+		<link rel="stylesheet" href="../proofFiles/css/style.css" type="text/css"/>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+		<script src="../proofFiles/js/bowser.min.js"></script>
+	</head>
+	
+	<body onload="initialize(3)">
+		<!-- div container to keep sizing consistent -->
+		<div id="contain">
+			<!-- Custom alert box skeleton defined here -->
+			<div id="dialogoverlay"></div>
+			<div id="dialogbox">
+				<div>
+					<div id="dialogboxhead"></div>
+					<div id="dialogboxfoot"></div>
+				</div>
+			</div>
+		
+			<img id="titles" src="../proofFiles/images/proveOne.png">
+				<p id="titleOne">PROVE</p>
+				<p id="titleTwo">GIVEN</p>
+				<p id="givenText"></p>
+				<p id="proofText"></p>
+			</img>
+			<img id="diagram" src="../proofFiles/images/diagramThree.png"></img>
+			<div id="statements">Statements</div>
+			<div id="reasons">Reasons</div>
+			<div id="choose">Choose tiles for your proof</div>
+			<img id="check" src="../proofFiles/images/checkreg.png" onmousedown="validate(3)"></img>
+			<img id="reset" src="../proofFiles/images/reset1.png" onmousedown="resetProof(3)"></img>
+		</div>
+		<script src="../proofFiles/js/texts.min.js"></script>
+		<script src="../proofFiles/js/functions.js"></script>
+	</body>
+</html>
